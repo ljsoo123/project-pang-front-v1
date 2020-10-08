@@ -5,17 +5,20 @@ const LoginHeader = ({isLoggedin}) => {
     const onLoginCheck = () =>{
         setloginCheck(!loginCheck);
     }
+    const pageChange = () => {
+        window.location.href = './Login'
+    }
     return(
         <S.Maindiv>
-            <S.NoLoginText onClick={onLoginCheck}>
+            <S.NoLoginText>
                 {loginCheck ? 
                 <>
-                    <div>로그아웃</div>
-                    <div>마이페이지</div>
+                    <div onClick={pageChange}>로그아웃</div>
+                    <div onClick={onLoginCheck}>마이페이지</div>
                 </>:
                 <>
-                    <div>로그인</div>
-                    <div>회원가입</div>
+                    <div onClick={pageChange}>로그인</div>
+                    <div onClick={onLoginCheck}>회원가입</div>
                 </>}
             </S.NoLoginText>
         </S.Maindiv>
