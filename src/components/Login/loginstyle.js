@@ -32,7 +32,8 @@ export const MainDiv = styled.div`
     }
     >input{
         border : 1px solid #C4C4C4;
-        padding-left:20px;   
+        padding-left:20px;
+        box-sizing : border-box;   
     }
 `
 
