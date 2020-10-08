@@ -1,16 +1,20 @@
 import React, { useState } from 'react'
 import Header from './components/Header/Header';
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
-import NoLogin from './components/Header/NoLogin'
+import LoginHeader from './components/Header/LoginHeader'
+import Login from './components/Login/Login'
 
 const App = () => {
+  const [isLoggedin, setisLoggedin] = useState(true);
+  const onLogin = () => {
+      setisLoggedin(!isLoggedin);
+  }
   return(
     <BrowserRouter>
     <Header/>
-    <NoLogin/>
-      <Switch>
+    <LoginHeader/>
         <Route path="/"/>
-      </Switch>
+        <Route path="/login" component={Login}/>
     </BrowserRouter>
 
   )
