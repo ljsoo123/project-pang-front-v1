@@ -25,19 +25,23 @@ export const MainDiv = styled.div`
         outline-color : #9F9F9F;
         color : black;
     }
-    button{
+    >button{
        background-color:#AAF1BB;
        border : 0;
+       width : width+10px;
     }
-    input{
+    >input{
         border : 1px solid #C4C4C4;
+        padding-left:20px;   
     }
 `
+
 export const Text = styled.div`
         @font-face { font-family: 'JSDongkang-Regular'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/JSDongkang-RegularA1.woff') format('woff'); font-weight: normal; font-style: normal; }
         font-family : JSDongkang-Regular;
         font-size : 20px;
 `
+
 export const Maintext = styled.div`
     margin-bottom : 70px;
     font-size : 50px;
@@ -45,6 +49,7 @@ export const Maintext = styled.div`
     @font-face { font-family: 'IBMPlexSansKR-Text'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Text.woff') format('woff'); font-weight: normal; font-style: normal; };
     font-family : IBMPlexSansKR-Text;
 `
+
 export const ID = styled.div`
     @font-face { font-family: 'JSDongkang-Regular'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/JSDongkang-RegularA1.woff') format('woff'); font-weight: normal; font-style: normal; }
     font-family : JSDongkang-Regular;
