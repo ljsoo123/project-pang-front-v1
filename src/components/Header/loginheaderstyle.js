@@ -14,7 +14,7 @@ export const NoLoginText = styled.div`
     }
 `
 
-export const MainDiv = styled.div`
+export const Maindiv = styled.div`
     width : 80%;
     margin : 0 auto;
 `
