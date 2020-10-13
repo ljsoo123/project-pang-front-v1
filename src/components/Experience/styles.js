@@ -48,9 +48,6 @@ export const ExperienceItemMain = styled.div`
     text-align: center;
   }
 `;
-export const ExperienceItem = styled.div`
-  background-color: black;
-`;
 
 export const ExperienceMainDiv = styled.div`
   display: flex;
