@@ -29,7 +29,7 @@ const NotFound = () => {
         position: "fixed",
         width: "100vw",
         height: "100vh",
-        background: "white",
+        background: " white",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
