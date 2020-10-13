@@ -36,7 +36,8 @@ export const ExperienceItemMain = styled.div`
   margin: 10px;
   width: 20%;
   border: 1px solid #dadada;
-  height: 300px;
+  height: 220px;
+  justify-content: space-between;
   > img {
     width: 100%;
     height: 150px;
@@ -57,4 +58,15 @@ export const ExperienceMainDiv = styled.div`
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+`;
+
+export const InnerExperience = styled.div`
+  justify-content: space-between;
+  display: flex;
+  margin-top: 20px;
+  font-family: JSDongkang-Regular;
+  font-size: 11px;
+  > div #price {
+    color: #219f70;
+  }
 `;
