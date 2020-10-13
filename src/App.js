@@ -3,7 +3,7 @@ import Header from "./components/Header/Header";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Login from "./components/Login/Login";
 import Experience from "./components/Experience/Experience";
-
+import Buy from "./components/buy/Buy";
 const App = () => {
   const [isLoggedin, setisLoggedin] = useState(true);
   const onLogin = () => {
@@ -16,6 +16,7 @@ const App = () => {
         <Route exact path="/" />
         <Route exact path="/login" component={Login} />
         <Route exact path="/experience" component={Experience} />
+        <Route exact path="/buy" component={Buy} />
         <Route component={NotFound} />
       </Switch>
     </BrowserRouter>
