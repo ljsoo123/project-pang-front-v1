@@ -1,5 +1,5 @@
-import React, {useState} from 'react'
-import * as S from './loginstyle'
+import React, {useState} from 'react';              
+import * as S from './styles';
 
 const Login = ({onLogin}) => {
     const [loginCheck, setloginCheck] = useState(true);

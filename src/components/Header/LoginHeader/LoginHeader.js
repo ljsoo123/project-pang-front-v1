@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
-import * as S from './loginheaderstyle';
+import * as S from './styles';
+    
 const LoginHeader = ({isLoggedin}) => {
     const [loginCheck, setloginCheck] = useState(isLoggedin);
     const onLoginCheck = () =>{

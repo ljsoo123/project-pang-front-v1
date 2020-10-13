@@ -1,23 +1,22 @@
-import React, { useState } from 'react'
-import Header from './components/Header/Header';
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
-import LoginHeader from './components/Header/LoginHeader'
-import Login from './components/Login/Login'
+import React, { useState } from "react";
+import Header from "./components/Header/Header";
+import { BrowserRouter, Route } from "react-router-dom";
+import Login from "./components/Login/Login";
+import Experience from "./components/Experience/Experience";
 
 const App = () => {
   const [isLoggedin, setisLoggedin] = useState(true);
   const onLogin = () => {
-      setisLoggedin(!isLoggedin);
-  }
-  return(
+    setisLoggedin(!isLoggedin);
+  };
+  return (
     <BrowserRouter>
-    <Header/>
-    <LoginHeader/>
-        <Route path="/"/>
-        <Route path="/login" component={Login}/>
+      <Header />
+      <Route path="/" />
+      <Route path="/login" component={Login} />
+      <Route path="/experience" component={Experience} />
     </BrowserRouter>
+  );
+};
 
-  )
-}
-
-export default App
+export default App;

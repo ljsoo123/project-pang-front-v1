@@ -13,9 +13,9 @@ export const MainDiv = styled.div`
     }       
     >input, button  {
         ::placeholder{
-        @font-face { font-family: 'JSDongkang-Regular'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/JSDongkang-RegularA1.woff') format('woff'); font-weight: normal; font-style: normal; }
-        font-family : JSDongkang-Regular;
-        font-size : 22px;
+            @font-face { font-family: 'JSDongkang-Regular'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/JSDongkang-RegularA1.woff') format('woff'); font-weight: normal; font-style: normal; }
+            font-family : JSDongkang-Regular;
+            font-size : 22px;
         }
         margin-bottom : 30px;
         font-size : 22px;
@@ -38,9 +38,9 @@ export const MainDiv = styled.div`
 `
 
 export const Text = styled.div`
-        @font-face { font-family: 'JSDongkang-Regular'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/JSDongkang-RegularA1.woff') format('woff'); font-weight: normal; font-style: normal; }
-        font-family : JSDongkang-Regular;
-        font-size : 20px;
+    @font-face { font-family: 'JSDongkang-Regular'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/JSDongkang-RegularA1.woff') format('woff'); font-weight: normal; font-style: normal; }
+    font-family : JSDongkang-Regular;
+    font-size : 20px;
 `
 
 export const Maintext = styled.div`
@@ -62,4 +62,4 @@ export const LoginCheck = styled.div`
     font-size : 22px;
     margin-bottom : 25px;
     color : red;
-`
+`   
