@@ -8,7 +8,7 @@ export const MainDiv = styled.div`
     font-weight: normal;
     font-style: normal;
   }
-  width: 80%;
+  width: 90%;
   align-items: center;
   display: flex;
   justify-content: center;
