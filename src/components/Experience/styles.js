@@ -40,6 +40,8 @@ export const ExperienceItemMain = styled.div`
   justify-content: space-between;
   > img {
     width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
     height: 150px;
   }
   #title {
@@ -60,10 +62,19 @@ export const ExperienceMainDiv = styled.div`
 export const InnerExperience = styled.div`
   justify-content: space-between;
   display: flex;
-  margin-top: 20px;
+  margin-top: 10px;
   font-family: JSDongkang-Regular;
   font-size: 11px;
+  > div {
+    height: 12px;
+    margin-left: 5px;
+  }
   > div #price {
     color: #219f70;
+    margin-bottom: 5px;
+  }
+  #endtime {
+    margin-top: 15px;
+    margin-right: 5px;
   }
 `;
