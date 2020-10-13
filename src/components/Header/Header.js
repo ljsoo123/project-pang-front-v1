@@ -1,14 +1,14 @@
-import React from 'react';
-import LoginHeader from './LoginHeader/LoginHeader';
-import MainHeader from './MainHeader/MainHeader';
+import React from "react";
+import LoginHeader from "./LoginHeader/LoginHeader";
+import MainHeader from "./MainHeader/MainHeader";
 
 const Header = () => {
-    return (
-        <>
-            <MainHeader/>       
-            <LoginHeader/>
-        </>
-    );
-}
+  return (
+    <div>
+      <MainHeader />
+      <LoginHeader />
+    </div>
+  );
+};
 
 export default Header;
