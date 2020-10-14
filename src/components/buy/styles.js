@@ -25,6 +25,7 @@ export const BuyItemMain = styled.div`
   margin: 15px;
   height: 750px;
   > img {
+    border: none;
     height: 600px;
     width: 100%;
     margin-bottom: 15px;
